@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Author Name" />
+    <meta name="copyright" content="Copyright © 2024" />
+    <title>inital</title>
+</head>
+
+<body>
+    <a href="#123">go to bottom</a>
+    <!-- HTML headings are defined with the <h1> to <h6> tags. -->
+    <h1 id = "456">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- HTML <p> element defines a paragraph.
+A paragraph always starts on a new line,
+and browsers automatically add some white space before and after a paragraph. -->
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <!-- Formatting elements  -->
+
+    <!--were designed to display special types of text:
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text -->
+
+    <b>This text is bold</b>
+    <strong>This text is important!</strong>
+    <i>This text is italic</i>
+    <em>This text is emphasized</em>
+    <small>This is some smaller text.</small>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <p>My favorite color is <del>blue</del> red.</p>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+    
+    <!-- Quotation and Citation Elements -->
+    <!-- <blockquote> for Quotations -->
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the
+        world's leading conservation organization, WWF works in nearly 100
+        countries. At every level, we collaborate with people around the world to
+        develop and deliver innovative solutions that protect communities, wildlife,
+        and the places in which they live.
+    </blockquote>
+
+    <!-- <q> for Short Quotations -->
+    <p>
+        WWF's goal is to:
+        <q>Build a future where people live in harmony with nature.</q>
+    </p>
+
+    <!-- <abbr> for Abbreviations -->
+    <p>
+        The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+    </p>
+
+    <!-- <address> for Contact Information -->
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+    <!-- <cite> for Work Title -->
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+    <!-- LIST -->
+    <!-- Unordered HTML List -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <!-- ordered HTML List -->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <!-- The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term: -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <!-- A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+    An inline element does not start on a new line. -->
+
+    <!-- The <div> Element -->
+    <!-- The <div> element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after. -->
+    <!-- Lorem Ipsum <div>I am a div</div> dolor sit amet. -->
+
+    <!-- HTML Iframe 
+    The HTML <iframe> tag specifies an inline frame -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c9oAewocqWQ?si=C51_XUZ1Ex8tHh5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <form action="#" method="post">
+
+            <!-- Text Input -->
+            <label for="text-input">Text Input:</label>
+            <input type="text" id="text-input" name="text_input" placeholder="Enter text"><br>
+        
+            <!-- Password Input -->
+            <label for="password-input">Password Input:</label>
+            <input type="password" id="password-input" name="password_input" placeholder="Enter password"><br>
+        
+            <!-- Email Input -->
+            <label for="email-input">Email Input:</label>
+            <input type="email" id="email-input" name="email_input" placeholder="Enter email"><br>
+        
+            <!-- Number Input -->
+            <label for="number-input">Number Input:</label>
+            <input type="number" id="number-input" name="number_input" placeholder="Enter number"><br>
+        
+            <!-- Checkbox -->
+            <label for="checkbox-input">Checkbox:</label>
+            <input type="checkbox" id="checkbox-input" name="checkbox_input"> Check me<br>
+        
+            <!-- Radio Buttons -->
+            <label>Radio Buttons:</label>
+            <input type="radio" id="radio-input1" name="radio_group" value="option1">
+            <label for="radio-input1">Option 1</label>
+            <input type="radio" id="radio-input2" name="radio_group" value="option2">
+            <label for="radio-input2">Option 2</label>
+            <br>
+            <!-- Select Dropdown -->
+            <label for="select-input">Select Dropdown:</label>
+            <select id="select-input" name="select_input">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            </select> 
+            <br>
+            <!-- Textarea -->
+            <label for="textarea-input">Textarea:</label>
+            <textarea id="textarea-input" name="textarea_input" placeholder="Enter text"></textarea><br>
+            <br>
+            <!-- Date Input -->
+            <label for="date-input">Date Input:</label>
+            <input type="date" id="date-input" name="date_input">
+            <br>
+            <!-- Time Input -->
+            <label for="time-input">Time Input:</label>
+            <input type="time" id="time-input" name="time_input">
+            <br>
+            <!-- Color Input -->
+            <label for="color-input">Color Input:</label>
+            <input type="color" id="color-input" name="color_input">
+            <br>
+            <!-- Range Input -->
+            <label for="range-input">Range Input:</label>
+            <input type="range" id="range-input" name="range_input" min="0" max="100" step="5">
+            <br>
+            <!-- File Input -->
+            <label for="file-input">File Input:</label>
+            <input type="file" id="file-input" name="file_input">
+            <br>
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        
+        </form>
+        <table border="1">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jane Doe</td>
+                <td>jane@example.com</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Bob Smith</td>
+                <td>bob@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          <p id ="123">bottom line</p>
+          <a href="#456">go to top</p>
+
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <video controls width="600" height="400">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+              </video>
+    </body>
